@@ -4,8 +4,7 @@ function SearchInput({ handleSearch }) {
   const [searchTerm, setSearchTerm] = useState("");
 
   return (
-    <div>
-      <h1>VerseHub</h1>
+    <>
       <div className="searchinput-wrapper">
         <form
           onSubmit={(e) => {
@@ -25,7 +24,7 @@ function SearchInput({ handleSearch }) {
           <button>Search</button>
         </form>
       </div>
-    </div>
+    </>
   );
 }
 

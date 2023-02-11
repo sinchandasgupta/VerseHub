@@ -24,10 +24,13 @@ function App() {
     }
   }
   return (
-    <>
-      <SearchInput handleSearch={handleSearch} />
+    <main>
+      <section className="search">
+        <h1>VerseHub</h1>
+        <SearchInput handleSearch={handleSearch} />
+      </section>
       <SearchResults searchResults={searchResults} />
-    </>
+    </main>
   );
 }
 
